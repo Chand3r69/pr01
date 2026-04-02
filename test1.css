@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2%;
+    border: 2px solid black;
+    align-items: center;
+    background-color: rgba(223, 117, 138, 0.849);
+
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+header div{
+    border: 2px solid black;
+    padding: 5px 15px;
+}
+
+header li{
+    border: 2px solid black;
+    padding: 5px 15px;
+}
+
+
+.sec1{
+    height: 400px;
+    width: 100%;
+    background-color: rgba(180, 120, 236, 0.733);
+    border: 2px solid black;
+    
+
+}
+
+
+.sec2{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(238, 157, 128);
+    border: 2px solid black;
+
+}
+
+.sec22{
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 30px;
+
+}
+
+.sec22 div{
+    padding: 1%;
+    padding: 10px 80%;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+.sec22 p{
+    padding: 10px 50%;
+    
+    border: 2px solid black;
+}
+
+
+
+.sec23{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+      
+}
+
+.card{
+    border: 2px solid black;
+    margin: 2%;
+    height: 200px;
+    width: 25%;
+    padding: 20px;
+
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: rgba(207, 206, 206, 0.712);
+
+
+}
+
+.fotsec1{
+    
+
+}
+
+
+footer h1{
+    
+    margin-top: 20px;
+    
+
+}
+
+.logo{
+    padding: 5px 15px;
+    border: 2px solid black;
+    margin-inline: 40%;
+    background-color: bisque;
+
+}
+
+footer button{
+    margin: 10px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    margin-inline: 32%;
+    background-color: rgba(211, 122, 122, 0.767);
+}
+
+.fotdiv{
+    padding: 10px 10px;
+    border: 2px solid black;
+    margin-inline: 20%;
+    margin-block: 20px 10px;
+    background-color: bisque;
+}
+
+
+.rsociales{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.fcard{
+    padding: 7px 15px;
+    width: 15%;
+    margin: 20px;
+    text-align: left;
+}
+
