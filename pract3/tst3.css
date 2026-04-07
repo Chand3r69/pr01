@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(195, 163, 141);
+    border: 2px solid black;
+    flex-wrap: wrap;
+}
+
+.hLogo{
+    font-size: 1.5em;
+    padding: 5px 25px;
+    border: 2px solid black;
+    background-color: blanchedalmond;
+}
+
+.hLogo:hover{
+    background-color: rgb(184, 148, 216);
+}
+
+
+.hNav ul{
+
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.hNav li{
+    padding: 5px 15px;
+    border: 2px solid black;
+    background-color: aliceblue;
+}
+
+.hNav li:hover{
+    background-color: rgb(164, 227, 183);
+}
+
+.busq{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    align-content: center;
+}
+
+.busq:hover{
+    background-color: rgb(164, 227, 183);
+}
+
+
+
+.hero{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(163, 196, 216);
+    
+    align-content: center;
+
+
+}
+.hero iframe{
+    height: 80%;
+    width: 80%;
+}
+
+.heroImg{
+    height: 80%;
+    width: 50%;
+    background-color: rgb(179, 224, 226);
+    border: 2px solid black;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.services{
+
+    text-align: center;
+    background-color: rgb(189, 155, 214);
+    border: 2px solid black;
+    
+}
+
+.services h1{
+    padding: 15px 0 10px
+}
+.Sseparador{
+    width: 80%;
+    border: 2px solid black;
+    background-color: antiquewhite;
+    margin: auto;
+    margin-block-end: 20px;
+    padding: 10px 0;
+    
+}
+
+.cards{
+    display: flex;
+    margin-block: 20px;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.card{
+    border: 2px solid black;
+    padding: 10px 15px 25px;
+    background-color: antiquewhite;
+    width: 25%;
+    
+}
+
+.card h2{
+    padding: 15px;
+}
+
+.card p{
+    text-align: justify;
+
+}
+
+
+.second{
+    text-align: center;
+    padding: 30px;
+    
+    background-color: rgb(186, 233, 184);
+
+}
+.second h2{
+    margin: 20px;
+}
+
+.secSeparador{
+    width: 60%;
+    border: 2px solid black;
+    background-color: antiquewhite;
+    margin: auto;
+    margin-block-end: 20px;
+    padding: 10px 0;
+}
+
+.second button{
+    padding: 8px 16px;
+    background-color: aquamarine;
+    margin: 0 0 20px 0;
+    border-radius: 15px;
+}
+
+.second button:hover{
+    background-color: rgb(224, 150, 150);
+}
+
+.secLogo{
+    font-size: 2em;
+    padding: 5px 25px;
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    margin: auto;
+    width: 100px;
+    box-sizing:content-box;
+    
+
+}
+
+footer{
+    background-color: rgb(186, 233, 184);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.Fcards{
+    margin: 30px;
+}
+
+.Fcards p{
+    padding-block: 3px;
+}
